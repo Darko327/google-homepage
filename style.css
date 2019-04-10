@@ -1,0 +1,118 @@
+/* General settings */
+body {
+    background-color: white;
+    font-family: Arial, sans-serif;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+/* Cleaner is adde so the main doesn't interfere with navigation bar */
+.cleaner {
+    clear: both;
+}
+/* Navigation styling and element postioning in "nav" bar + some generalized values */
+nav ul {
+    width: auto;
+    float: right;
+    padding: 20px 35px;
+}
+ul li {
+    display: inline;
+}
+li a {
+    display: inline-block;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;    
+}
+nav ul li a {
+    padding: 10px;
+    color: black;
+}
+/* Styling Google profile Avatar */
+#ProfAvatar {
+    background-color: rgb(153, 153, 255);
+    border-radius: 50%;
+    padding: 14px;
+    margin-left: 0.6em;
+    font-size: 1.2em;
+    color: white;
+    font-weight: 550;
+}
+#ProfAvatar:hover {
+    text-decoration: none;
+}
+/* Main styling - block and picture */
+main {
+    padding: 150px 0;
+}
+img[alt="Google logo"] {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 100px;
+}
+/* Main styling - search bar  */
+input {
+    display: block;
+    width: 35%;
+    margin: 30px auto 45px auto;
+    padding: 15px 0 15px 30px;
+    font-size: 17px;
+    border: 1px solid rgba(220,220,220, 0.9);
+    border-radius: 30px;
+    background-color: white;
+}
+input:hover {
+    box-shadow: 0 1px 6px rgba(32, 33, 36, .28);
+}
+/* Main styling - buttons */
+#Buttons {
+    display: table;
+    margin: 0 auto;
+    width: auto;
+}
+button[type="submit"] {
+    margin: 0 10px;
+    padding: 15px 20px;
+    display: inline-block;
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    color: #5F6368;
+}
+button[type="submit"]:hover {
+    cursor: pointer;
+}
+main p {
+    text-align: center;
+    margin-top: 45px;
+}
+main p a {
+    text-decoration: none;
+}
+/* Footer styling - divided in two equal horizontal parts */
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    height: auto;
+    background-color: #efefef;
+}
+.FooterLinks {
+    border-top: 1px solid #e0e0e0;
+    color: #5f6368;
+}
+/* Footer styling - text styling and positioning */
+.FooterLinks p, .Ul-group li a {
+    padding: 15px;
+}
+.Ul-group {
+    display: inline-block;
+}
+.Ul-group:nth-child(2) {
+    float: right;
+}
+.Ul-group li a {
+    color: #5f6368;
+}
